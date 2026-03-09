@@ -1,6 +1,24 @@
-# S1-laminar-attention-SEBOLD
+# S1 Laminar Attention SE-BOLD Analysis
 
-This repository contains MATLAB scripts used for the analysis of laminar
-spin-echo fMRI data in human primary somatosensory cortex (S1).
+MATLAB scripts for traveling wave (TW) analysis and laminar qT1 profile analyses used in the study:
+“Layer-Specific Attentional Modulation in Human Primary Somatosensory Cortex”.
 
-Scripts include traveling-wave phase mapping and laminar qT1 profile analysis.
+## Requirements
+MATLAB R2021a or later (tested on R2021a–R2023b)
+
+## Contents
+scripts/ – MATLAB scripts for TW analysis and qT1 laminar profile extraction  
+data_demo/ – small example dataset for demonstration
+
+## Usage
+Run the scripts in the `scripts/` directory following the comments in each file.
+
+## Expected output
+Layer-wise qT1 profiles, first/second derivatives, and figures used in the manuscript.
+
+## Reproducibility
+Source data and additional materials are available at:
+https://osf.io/2v6nb/
+
+## License
+MIT License
